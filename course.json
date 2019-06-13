@@ -280,11 +280,11 @@
         {
           "title": "练习-1",
           "text": "scenario/3.4-case-practice[1].md"
-        }，
+        },
         {
           "title": "互斥锁",
           "text": "scenario/3.5-go-mutex.md"
-        }，
+        },
         {
           "title": "练习-2",
           "text": "scenario/3.6-case-practice[2].md"
