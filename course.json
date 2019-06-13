@@ -44,151 +44,126 @@
         {
           "title": "方法",
           "text": "scenario/method/1.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "方法即函数",
           "text": "scenario/method/2.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "方法（续）",
           "text": "scenario/method/3.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "指针接收者",
           "text": "scenario/method/4.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "指针与函数",
           "text": "scenario/method/5.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "方法与指针重定向",
           "text": "scenario/method/6.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "方法与指针重定向（续）",
           "text": "scenario/method/7.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "选择值或指针作为接收者",
           "text": "scenario/method/8.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "接口",
           "text": "scenario/method/9.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "接口与隐式实现",
           "text": "scenario/method/10.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "接口值",
           "text": "scenario/method/11.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "底层值为 nil 的接口值",
           "text": "scenario/method/12.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "nil 接口值",
           "text": "scenario/method/13.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "空接口",
           "text": "scenario/method/14.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "类型断言",
           "text": "scenario/method/15.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "类型选择",
           "text": "scenario/method/16.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "Stringer",
           "text": "scenario/method/17.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "练习：Stringer",
           "text": "scenario/method/18.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "错误",
           "text": "scenario/method/19.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "练习：错误",
           "text": "scenario/method/20.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "Reader",
           "text": "scenario/method/21.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "练习：Reader",
           "text": "scenario/method/22.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "练习：rot13Reader",
           "text": "scenario/method/23.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "图像",
           "text": "scenario/method/24.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "练习：图像",
           "text": "scenario/method/25.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         }
       ]
@@ -201,61 +176,51 @@
         {
           "title": "Go 程",
           "text": "scenario/goroutine/1.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "信道",
           "text": "scenario/goroutine/2.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "带缓冲的信道",
           "text": "scenario/goroutine/3.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "range 和 close",
           "text": "scenario/goroutine/4.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "select 语句",
           "text": "scenario/goroutine/5.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "默认选择",
           "text": "scenario/goroutine/6.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "练习：等价二叉查找树",
           "text": "scenario/goroutine/7.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "练习：等价二叉查找树",
           "text": "scenario/goroutine/8.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "sync.Mutex",
           "text": "scenario/goroutine/9.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         },
         {
           "title": "练习：Web 爬虫",
           "text": "scenario/goroutine/10.md",
-          "check": "scripts/check.sh",
           "preload": "scripts/preload.js"
         }
       ]
