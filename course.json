@@ -1,0 +1,102 @@
+{
+  "version": "1",
+  "title": "Go Study Guide",
+  "author": "GitCourse Players",
+  "description": "欢迎来到 Go 编程语言指南。本指南涵盖了该语言的大部分重要特性，主要包括：基础知识、方法和接口，并发。学习使用本指南：包括如何在不同的课程间切换以及运行代码。",
+  "preload": "scripts/auth.js",
+  "scenarios":[
+    {
+      "title": "基础",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:tensorflow",
+      "description": "一开始，将学习关于语言的所有基础内容。定义变量、调用函数、以及在你学习下一课之前所需要了解的全部内容。",
+      "steps":[
+        {
+          "title": "xxx",
+          "text": "scenario/1.x-xx.md"
+        },
+        {
+          "title": "xxx",
+          "text": "scenario/1.x-xx.md"
+        },
+        {
+          "title": "xxx",
+          "text": "scenario/1.x-xx.md"
+        },
+        {
+          "title": "xxx",
+          "text": "scenario/1.x-xx.md"
+        },
+        {
+          "title": "xxx",
+          "text": "scenario/1.x-xx.md"
+        },
+        {
+          "title": "xxx",
+          "text": "scenario/1.x-xx.md"
+        }
+      ]
+    },
+    {
+      "title": "方法和接口",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:tensorflow",
+      "description": "学习如何为类型定义方法；如何定义接口；以及如何将所有内容贯通起来。",
+      "steps":[
+        {
+          "title": "xxx",
+          "text": "scenario/2.x-xx.md"
+        },
+        {
+          "title": "xxx",
+          "text": "scenario/2.2-Training-data.md"
+        },
+        {
+          "title": "xxx",
+          "text": "scenario/2.x-xx.md"
+        },
+        {
+          "title": "xxx",
+          "text": "scenario/2.x-xx.md"
+        },
+        {
+          "title": "xxx",
+          "text": "scenario/2.x-xx.md"
+        },
+        {
+          "title": "xxx",
+          "text": "scenario/2.x-xx.md"
+        }
+      ]
+    },
+    {
+      "title": "并发",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:tensorflow",
+      "description": "作为语言的核心部分，Go 提供了并发的特性。这一部分概览了 goroutine 和 channel，以及如何使用它们来实现不同的并发模式。",
+      "steps":[
+        {
+          "title": "Go 程",
+          "text": "scenario/3.1-go-process.md"
+        },
+        {
+          "title": "信道",
+          "text": "scenario/3.2-go-channel.md"
+        },
+        {
+          "title": "select 语句",
+          "text": "scenario/3.3-go-select.md"
+        },
+        {
+          "title": "练习-1",
+          "text": "scenario/3.4-case-practice[1].md"
+        }，
+        {
+          "title": "互斥锁",
+          "text": "scenario/3.5-go-mutex.md"
+        }，
+        {
+          "title": "练习-2",
+          "text": "scenario/3.6-case-practice[2].md"
+        }
+      ]
+    }
+  ]
+}
