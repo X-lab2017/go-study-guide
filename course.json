@@ -1,100 +1,230 @@
 {
   "version": "1",
-  "title": "Go Study Guide",
-  "author": "GitCourse Players",
-  "description": "欢迎来到 Go 编程语言指南。本指南涵盖了该语言的大部分重要特性，主要包括：基础知识、方法和接口，并发。学习使用本指南：包括如何在不同的课程间切换以及运行代码。",
-  "preload": "scripts/auth.js",
-  "scenarios":[
+  "title": "Golang 实训教程",
+  "author": "GitCourse",
+  "description": "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.",
+  "scenarios": [
     {
-      "title": "基础",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:tensorflow",
-      "description": "一开始，将学习关于语言的所有基础内容。定义变量、调用函数、以及在你学习下一课之前所需要了解的全部内容。",
-      "steps":[
+      "title": "Golang 方法",
+      "pre": "scripts/pre.sh",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:nb-golang",
+      "steps": [
         {
-          "title": "xxx",
-          "text": "scenario/1.x-xx.md"
+          "title": "方法",
+          "text": "scenario/method/1.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
         },
         {
-          "title": "xxx",
-          "text": "scenario/1.x-xx.md"
+          "title": "方法即函数",
+          "text": "scenario/method/2.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
         },
         {
-          "title": "xxx",
-          "text": "scenario/1.x-xx.md"
+          "title": "方法（续）",
+          "text": "scenario/method/3.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
         },
         {
-          "title": "xxx",
-          "text": "scenario/1.x-xx.md"
+          "title": "指针接收者",
+          "text": "scenario/method/4.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
         },
         {
-          "title": "xxx",
-          "text": "scenario/1.x-xx.md"
+          "title": "指针与函数",
+          "text": "scenario/method/5.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
         },
         {
-          "title": "xxx",
-          "text": "scenario/1.x-xx.md"
+          "title": "方法与指针重定向",
+          "text": "scenario/method/6.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "方法与指针重定向（续）",
+          "text": "scenario/method/7.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "选择值或指针作为接收者",
+          "text": "scenario/method/8.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "接口",
+          "text": "scenario/method/9.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "接口与隐式实现",
+          "text": "scenario/method/10.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "接口值",
+          "text": "scenario/method/11.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "底层值为 nil 的接口值",
+          "text": "scenario/method/12.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "nil 接口值",
+          "text": "scenario/method/13.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "空接口",
+          "text": "scenario/method/14.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "类型断言",
+          "text": "scenario/method/15.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "类型选择",
+          "text": "scenario/method/16.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "Stringer",
+          "text": "scenario/method/17.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "练习：Stringer",
+          "text": "scenario/method/18.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "错误",
+          "text": "scenario/method/19.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "练习：错误",
+          "text": "scenario/method/20.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "Reader",
+          "text": "scenario/method/21.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "练习：Reader",
+          "text": "scenario/method/22.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "练习：rot13Reader",
+          "text": "scenario/method/23.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "图像",
+          "text": "scenario/method/24.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "练习：图像",
+          "text": "scenario/method/25.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
         }
       ]
     },
     {
-      "title": "方法和接口",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:tensorflow",
-      "description": "学习如何为类型定义方法；如何定义接口；以及如何将所有内容贯通起来。",
-      "steps":[
-        {
-          "title": "xxx",
-          "text": "scenario/2.x-xx.md"
-        },
-        {
-          "title": "xxx",
-          "text": "scenario/2.2-Training-data.md"
-        },
-        {
-          "title": "xxx",
-          "text": "scenario/2.x-xx.md"
-        },
-        {
-          "title": "xxx",
-          "text": "scenario/2.x-xx.md"
-        },
-        {
-          "title": "xxx",
-          "text": "scenario/2.x-xx.md"
-        },
-        {
-          "title": "xxx",
-          "text": "scenario/2.x-xx.md"
-        }
-      ]
-    },
-    {
-      "title": "并发",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:tensorflow",
-      "description": "作为语言的核心部分，Go 提供了并发的特性。这一部分概览了 goroutine 和 channel，以及如何使用它们来实现不同的并发模式。",
-      "steps":[
+      "title": "Golang Routine",
+      "pre": "scripts/pre.sh",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:nb-golang",
+      "steps": [
         {
           "title": "Go 程",
-          "text": "scenario/3.1-go-process.md"
+          "text": "scenario/goroutine/1.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
         },
         {
           "title": "信道",
-          "text": "scenario/3.2-go-channel.md"
+          "text": "scenario/goroutine/2.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "带缓冲的信道",
+          "text": "scenario/goroutine/3.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "range 和 close",
+          "text": "scenario/goroutine/4.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
         },
         {
           "title": "select 语句",
-          "text": "scenario/3.3-go-select.md"
+          "text": "scenario/goroutine/5.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
         },
         {
-          "title": "练习-1",
-          "text": "scenario/3.4-case-practice[1].md"
-        }，
+          "title": "默认选择",
+          "text": "scenario/goroutine/6.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
         {
-          "title": "互斥锁",
-          "text": "scenario/3.5-go-mutex.md"
-        }，
+          "title": "练习：等价二叉查找树",
+          "text": "scenario/goroutine/7.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
         {
-          "title": "练习-2",
-          "text": "scenario/3.6-case-practice[2].md"
+          "title": "练习：等价二叉查找树",
+          "text": "scenario/goroutine/8.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "sync.Mutex",
+          "text": "scenario/goroutine/9.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
+        },
+        {
+          "title": "练习：Web 爬虫",
+          "text": "scenario/goroutine/10.md",
+          "check": "scripts/check.sh",
+          "preload": "scripts/preload.js"
         }
       ]
     }
