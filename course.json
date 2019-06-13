@@ -259,37 +259,6 @@
           "preload": "scripts/preload.js"
         }
       ]
-    },
-    {
-      "title": "并发",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:tensorflow",
-      "description": "作为语言的核心部分，Go 提供了并发的特性。这一部分概览了 goroutine 和 channel，以及如何使用它们来实现不同的并发模式。",
-      "steps":[
-        {
-          "title": "Go 程",
-          "text": "scenario/3.1-go-process.md"
-        },
-        {
-          "title": "信道",
-          "text": "scenario/3.2-go-channel.md"
-        },
-        {
-          "title": "select 语句",
-          "text": "scenario/3.3-go-select.md"
-        },
-        {
-          "title": "练习-1",
-          "text": "scenario/3.4-case-practice[1].md"
-        },
-        {
-          "title": "互斥锁",
-          "text": "scenario/3.5-go-mutex.md"
-        },
-        {
-          "title": "练习-2",
-          "text": "scenario/3.6-case-practice[2].md"
-        }
-      ]
     }
   ]
 }
