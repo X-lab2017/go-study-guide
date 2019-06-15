@@ -12,79 +12,117 @@
       "steps":[
         {
           "title": "包",
-          "text": "scenario/Basic knowledge/1.1-go-package.md.md"
+          "text": "scenario/Basic knowledge/1.1-go-package.md.md",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/basic%20knowledge/1.ipynb"
         },
         {
           "title": "函数",
-          "text": "scenario/Basic knowledge/1.2-go-function.md.md"
+          "text": "scenario/Basic knowledge/1.2-go-function.md.md",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/basic%20knowledge/2.ipynb"
         },
         {
           "title": "基本类型",
-          "text": "scenario/Basic knowledge/1.3-go-basic-types.md"
+          "text": "scenario/Basic knowledge/1.3-go-basic-types.md",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/basic%20knowledge/3.ipynb"
         },
         {
           "title": "变量",
-          "text": "scenario/Basic knowledge/1.4-go-variable.md"
+          "text": "scenario/Basic knowledge/1.4-go-variable.md",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/basic%20knowledge/4.ipynb"
         },
         {
           "title": "类型转换",
-          "text": "scenario/Basic knowledge/1.5-go-type-conversion.md"
+          "text": "scenario/Basic knowledge/1.5-go-type-conversion.md",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/basic%20knowledge/5.ipynb"
         },
         {
           "title": "类型推导",
-          "text": "scenario/Basic knowledge/1.6-go-type-type-inference.md"
+          "text": "scenario/Basic knowledge/1.6-go-type-type-inference.md",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/basic%20knowledge/6.ipynb"
         },
         {
           "title": "常量",
-          "text": "scenario/Basic knowledge/1.7-go-contant.md"
+          "text": "scenario/Basic knowledge/1.7-go-contant.md",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/basic%20knowledge/7.ipynb"
         },
         {
           "title": "for",
-          "text": "scenario/Basic knowledge/1.8-go-for.md"
+          "text": "scenario/Basic knowledge/1.8-go-for.md",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/basic%20knowledge/8.ipynb"
         },
         {
           "title": "if",
-          "text": "scenario/Basic knowledge/1.9-go-if.md"
+          "text": "scenario/Basic knowledge/1.9-go-if.md",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/basic%20knowledge/9.ipynb"
         },
         {
           "title": "练习：循环与函数",
-          "text": "scenario/Basic knowledge/1.10-case-practice[1].md"
+          "text": "scenario/Basic knowledge/1.10-case-practice[1].md",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/basic%20knowledge/10.ipynb"
         },
         {
           "title": "switch",
-          "text": "scenario/Basic knowledge/1.11-go-switch.md"
+          "text": "scenario/Basic knowledge/1.11-go-switch.md",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/basic%20knowledge/11.ipynb"
         },
         {
           "title": "defer",
-          "text": "scenario/Basic knowledge/1.12-go-defer.md"
+          "text": "scenario/Basic knowledge/1.12-go-defer.md",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/basic%20knowledge/12.ipynb"
         },
         {
           "title": "指针",
-          "text": "scenario/Basic knowledge/1.13-go-pointer.md"
+          "text": "scenario/Basic knowledge/1.13-go-pointer.md",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/basic%20knowledge/13.ipynb"
         },
         {
           "title": "结构体",
-          "text": "scenario/Basic knowledge/1.14-go-struct.md"
+          "text": "scenario/Basic knowledge/1.14-go-struct.md",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/basic%20knowledge/14.ipynb"
         },
         {
           "title": "数组",
-          "text": "scenario/Basic knowledge/1.15-go-array.md"
+          "text": "scenario/Basic knowledge/1.15-go-array.md",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/basic%20knowledge/15.ipynb"
         },
         {
           "title": "切片",
-          "text": "scenario/Basic knowledge/1.16-go-slices.md"
+          "text": "scenario/Basic knowledge/1.16-go-slices.md",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/basic%20knowledge/16.ipynb"
         },
         {
           "title": "练习：切片",
-          "text": "scenario/Basic knowledge/1.17-case-practice[2].md"
+          "text": "scenario/Basic knowledge/1.17-case-practice[2].md",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/basic%20knowledge/17.ipynb"
         },
         {
           "title": "映射",
-          "text": "scenario/Basic knowledge/1.18-go-map.md"
+          "text": "scenario/Basic knowledge/1.18-go-map.md",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/basic%20knowledge/18.ipynb"
         },
         {
           "title": "练习：映射",
-          "text": "scenario/Basic knowledge/1.19-case-practice[3].md"
+          "text": "scenario/Basic knowledge/1.19-case-practice[3].md",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/basic%20knowledge/19.ipynb"
         }
       ]
     },
@@ -96,127 +134,170 @@
         {
           "title": "方法",
           "text": "scenario/method/1.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/1.ipynb"
         },
         {
           "title": "方法即函数",
           "text": "scenario/method/2.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/2.ipynb"
         },
         {
           "title": "方法（续）",
           "text": "scenario/method/3.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/3.ipynb"
         },
         {
           "title": "指针接收者",
           "text": "scenario/method/4.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/4.ipynb"
         },
         {
           "title": "指针与函数",
           "text": "scenario/method/5.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/5.ipynb"
         },
         {
           "title": "方法与指针重定向",
           "text": "scenario/method/6.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/6.ipynb"
         },
         {
           "title": "方法与指针重定向（续）",
           "text": "scenario/method/7.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/7.ipynb"
         },
         {
           "title": "选择值或指针作为接收者",
           "text": "scenario/method/8.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/8.ipynb"
         },
         {
           "title": "接口",
           "text": "scenario/method/9.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/9.ipynb"
         },
         {
           "title": "接口与隐式实现",
           "text": "scenario/method/10.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/10.ipynb"
         },
         {
           "title": "接口值",
           "text": "scenario/method/11.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/11.ipynb"
         },
         {
           "title": "底层值为 nil 的接口值",
           "text": "scenario/method/12.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/12.ipynb"
         },
         {
           "title": "nil 接口值",
           "text": "scenario/method/13.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/13.ipynb"
         },
         {
           "title": "空接口",
           "text": "scenario/method/14.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/14.ipynb"
         },
         {
           "title": "类型断言",
           "text": "scenario/method/15.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/15.ipynb"
         },
         {
           "title": "类型选择",
           "text": "scenario/method/16.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/16.ipynb"
         },
         {
           "title": "Stringer",
           "text": "scenario/method/17.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/17.ipynb"
         },
         {
           "title": "练习：Stringer",
           "text": "scenario/method/18.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/18.ipynb"
         },
         {
           "title": "错误",
           "text": "scenario/method/19.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/19.ipynb"
         },
         {
           "title": "练习：错误",
           "text": "scenario/method/20.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/20.ipynb"
         },
         {
           "title": "Reader",
           "text": "scenario/method/21.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/21.ipynb"
         },
         {
           "title": "练习：Reader",
           "text": "scenario/method/22.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/22.ipynb"
         },
         {
           "title": "练习：rot13Reader",
           "text": "scenario/method/23.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/23.ipynb"
         },
         {
           "title": "图像",
           "text": "scenario/method/24.md",
-          "preload": "scripts/preload.js"
-        },
-        {
-          "title": "练习：图像",
-          "text": "scenario/method/25.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/method/24.ipynb"
         }
       ]
     },
@@ -228,52 +309,72 @@
         {
           "title": "Go 程",
           "text": "scenario/goroutine/1.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/goroutine/1.ipynb"
         },
         {
           "title": "信道",
           "text": "scenario/goroutine/2.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/goroutine/2.ipynb"
         },
         {
           "title": "带缓冲的信道",
           "text": "scenario/goroutine/3.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/goroutine/3.ipynb"
         },
         {
           "title": "range 和 close",
           "text": "scenario/goroutine/4.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/goroutine/4.ipynb"
         },
         {
           "title": "select 语句",
           "text": "scenario/goroutine/5.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/goroutine/5.ipynb"
         },
         {
           "title": "默认选择",
           "text": "scenario/goroutine/6.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/goroutine/6.ipynb"
         },
         {
           "title": "练习：等价二叉查找树",
           "text": "scenario/goroutine/7.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/goroutine/7.ipynb"
         },
         {
           "title": "练习：等价二叉查找树",
           "text": "scenario/goroutine/8.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/goroutine/8.ipynb"
         },
         {
           "title": "sync.Mutex",
           "text": "scenario/goroutine/9.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/goroutine/9.ipynb"
         },
         {
           "title": "练习：Web 爬虫",
           "text": "scenario/goroutine/10.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "http://192.168.2.203:8888/notebooks/goroutine/10.ipynb"
         }
       ]
     }
