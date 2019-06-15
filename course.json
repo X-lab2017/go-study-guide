@@ -7,14 +7,14 @@
   "scenarios":[
     {
       "title": "基础",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:tensorflow",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:nb-golang",
       "description": "一开始，将学习关于语言的所有基础内容。定义变量、调用函数、以及在你学习下一课之前所需要了解的全部内容。",
       "steps":[
         {
           "title": "包",
           "text": "scenario/Basic knowledge/1.1-go-package.md.md",
           "program": "bg.sh",
-          "extraTab": "http://192.168.2.203:8888/notebooks/basic%20knowledge/1.ipynb"
+          "extraTab": "[domain]:[:8888]/notebooks/basic%20knowledge/1.ipynb"
         },
         {
           "title": "函数",
