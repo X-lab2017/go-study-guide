@@ -12,13 +12,13 @@
       "steps": [
         {
           "title": "包",
-          "text": "scenario/Basic knowledge/1.1-go-package.md.md",
+          "text": "scenario/Basic knowledge/1.1-go-package.md",
           "program": "bg.sh",
           "extraTab": "[domain]:[:8888]/notebooks/basic%20knowledge/1.ipynb"
         },
         {
           "title": "函数",
-          "text": "scenario/Basic knowledge/1.2-go-function.md.md",
+          "text": "scenario/Basic knowledge/1.2-go-function.md",
           "program": "bg.sh",
           "extraTab": "[domain]:[:8888]/notebooks/basic%20knowledge/2.ipynb"
         },
