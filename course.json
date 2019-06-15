@@ -269,6 +269,7 @@
           "title": "Go 程",
           "text": "scenario/goroutine/1.md",
           "preload": "scripts/preload.js",
+          "program": "bg.sh",
           "extraTab": "[domain]:[:8888]/notebooks/goroutine/1.ipynb"
         },
         {
