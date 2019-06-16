@@ -196,7 +196,7 @@
           "title": "空接口",
           "text": "scenario/method/14.md",
           "preload": "scripts/preload.js",
-          "extraTab": "http: //192.168.2.203:8888/notebooks/method/14.ipynb"
+          "extraTab": "[domain]:[:8888]/notebooks/method/14.ipynb"
         },
         {
           "title": "类型断言",
